@@ -53,7 +53,7 @@ $(window).on('load', function(){
 	/* ========================================================== */
 	
 	$(window).on('scroll', function() {
-		if($(this).scrollTop() > 100) {
+		if($(this).scrollTop() > 1000) {
 			$('.navbar-fixed-top').addClass('opaque');
 		} else {
 			$('.navbar-fixed-top').removeClass('opaque');
